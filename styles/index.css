@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+header{
+    height: 100%;
+    width: 100%;
+}
+.container-header {
+    background-color: rgb(137, 80, 190);
+}
+.container-header >img{
+    height: 70%;
+    border-radius: 15%;
+    padding: 30px;
+}
+.container-header >h2{
+    margin-top: 10;
+}
+.container-text{
+position: relative;
+top: -190px;
+text-align: center;
+/* padding: 90px; */
+}
