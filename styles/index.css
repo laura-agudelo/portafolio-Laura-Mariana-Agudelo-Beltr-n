@@ -9,7 +9,7 @@ body{
     padding: 30px;
 }
 .container-header >h2{
-    margin-top: 10;
+    margin-top: 10px;
 }
 .container-text {
     margin-left: 20px;
@@ -24,18 +24,18 @@ width: 90%;
 background-color: #6cab37
 }
 
-.proyects >img{
+.proyects>img{
     height: 50px;
     background-color: #c1ff95;
     border-radius: 50px;
     margin-left: 20px;
 }
-.proyects {
+.proyects{
     display: flex;
     align-items: center;
     
 }
-.proyects > h1{
+.proyects> h1{
     margin-left: 10px;
     font-size: 25px;
     color: #5b5a5d;
@@ -46,4 +46,72 @@ background-color: #6cab37
     height: 15px; 
     background-color: #8ac655
   }
+  .card {
+    display: flex;
+    border: 1px solid #5b5a5d;;
+    border-radius: 8px;
+    background-color: #6cab37;;
+    height: auto;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  
+  .image-container {
+    flex: 0 0 70%; /* Ancho de la imagen */
+    max-width: 30%; /* Ancho máximo de la imagen */
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    margin-top: 18px;
+    width: 120px;
+    height: 80%;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .content h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .content a {
+    display: grid;
+    color: rgb(4, 4, 4);
+    text-align: center; 
+  }
+  .content a:hover {
+    color: #ffffff; /* Cambia el color del texto cuando el cursor está sobre el enlace */
+  }
+  .references >img{
+    height: 50px;
+    background-color: #c1ff95;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.references{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.references> h1{
+    margin-left: 10px;
+    font-size: 25px;
+    color: #5b5a5d;
+}
+.spacer {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 15px; 
+    background-color: #8ac655
+  }
+  
   
