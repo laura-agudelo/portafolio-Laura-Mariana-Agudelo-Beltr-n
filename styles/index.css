@@ -41,10 +41,11 @@ background-color: #6cab37
     color: #5b5a5d;
 }
 .spacer {
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 15px; 
-    background-color: #8ac655
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 12px; 
+  width: 92%;
+  background-color: #8ac655
   }
   .card {
     display: flex;
@@ -67,6 +68,7 @@ background-color: #6cab37
     margin-top: 18px;
     width: 120px;
     height: 80%;
+    
   }
   
   .content {
@@ -148,12 +150,12 @@ background-color: #6cab37
     width: 92%;
     background-color: #8ac655
   }
-    .contenedor {
+  .container {
       display: flex;
       flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
       justify-content: center; 
   }
-  .seccion {
+  .section {
       margin: 20px;
   }
   .imagen {
@@ -162,16 +164,17 @@ background-color: #6cab37
       height: 100px; 
       border-radius: 50%; 
       margin-bottom: 10px; 
+      /* object-fit: cover; */
   }
-  .progreso {
-      width: 100px; /* Ancho de las barras de progreso */
-      height: 20px; /* Altura de las barras de progreso */
-      background-color: #f0f0f0; /* Color de fondo */
-      border-radius: 10px; /* Para redondear las esquinas */
+  .progress {
+      width: 100px; 
+      height: 20px; 
+      background-color: #f0f0f0; 
+      border-radius: 10px; 
       overflow: hidden; /* Oculta el exceso de progreso */
   }
 
-  .barra {
+  .bar {
       width: 0; /* Ancho inicial de la barra de progreso */
       height: 100%; /* Altura de la barra de progreso */
       background-color: #4caf50; /* Color de la barra de progreso */
