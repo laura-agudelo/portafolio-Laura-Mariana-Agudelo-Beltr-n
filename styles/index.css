@@ -148,3 +148,31 @@ background-color: #6cab37
     width: 92%;
     background-color: #8ac655
   }
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+      justify-content: center; 
+  }
+  .seccion {
+      margin: 20px;
+  }
+  .imagen {
+    margin-top: 20px;
+      width: 100px; 
+      height: 100px; 
+      border-radius: 50%; 
+      margin-bottom: 10px; 
+  }
+  .progreso {
+      width: 100px; /* Ancho de las barras de progreso */
+      height: 20px; /* Altura de las barras de progreso */
+      background-color: #f0f0f0; /* Color de fondo */
+      border-radius: 10px; /* Para redondear las esquinas */
+      overflow: hidden; /* Oculta el exceso de progreso */
+  }
+
+  .barra {
+      width: 0; /* Ancho inicial de la barra de progreso */
+      height: 100%; /* Altura de la barra de progreso */
+      background-color: #4caf50; /* Color de la barra de progreso */
+  }
