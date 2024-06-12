@@ -48,9 +48,9 @@ background-color: #6cab37
   }
   .card {
     display: flex;
-    border: 1px solid #5b5a5d;;
+    border: 1px solid #5b5a5d;
     border-radius: 8px;
-    background-color: #6cab37;;
+    background-color: #6cab37;
     height: auto;
     width: 80%;
     margin-left: 40px;
@@ -110,8 +110,41 @@ background-color: #6cab37
 .spacer {
     margin-left: 20px;
     margin-right: 20px;
-    height: 15px; 
+    height: 12px; 
+    width: 92%;
     background-color: #8ac655
   }
-  
-  
+  .container-paintings{
+    display: flex;
+  }
+  .cuadro {
+    width: 100px; 
+    height: 110px; 
+    border: 1px solid #5b5a5d;
+    margin: 6px; 
+    margin-left: 14px;
+    padding: 10px;
+  }
+  .experience >img{
+    height: 50px;
+    background-color: #c1ff95;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.experience{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+.experience> h1{
+    margin-left: 10px;
+    font-size: 25px;
+    color: #5b5a5d;
+}
+.spacer {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 12px; 
+    width: 92%;
+    background-color: #8ac655
+  }
