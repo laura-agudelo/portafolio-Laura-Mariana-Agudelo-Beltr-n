@@ -1,12 +1,13 @@
 body{
     margin: 0;
-   
+   background-color: #aad87e;
 }
 
 .container-header >img{
-    height: 70%;
+    height: 90%;
     border-radius: 65px;
-    padding: 30px;
+    padding: 10px;
+    margin-right: 10px;
 }
 .container-header >h2{
     margin-top: 10px;
@@ -20,15 +21,16 @@ justify-content:space-between ;
 align-items: center;
 padding: 20px;
 height: 100%;
-width: 90%;
+width: 92%;
 background-color: #6cab37
 }
 
 .proyects>img{
     height: 50px;
-    background-color: #c1ff95;
+    background-color: #aad87e;
     border-radius: 50px;
     margin-left: 20px;
+    margin-top: 50px;
 }
 .proyects{
     display: flex;
@@ -39,6 +41,7 @@ background-color: #6cab37
     margin-left: 10px;
     font-size: 25px;
     color: #5b5a5d;
+    margin-top: 70px;
 }
 .spacer {
   margin-left: 20px;
@@ -54,7 +57,7 @@ background-color: #6cab37
     background-color: #6cab37;
     height: auto;
     width: 80%;
-    margin-left: 40px;
+    margin-left: 50px;
     margin-top: 10px;
   }
   
@@ -95,7 +98,7 @@ background-color: #6cab37
   }
   .references >img{
     height: 50px;
-    background-color: #c1ff95;
+    background-color: #aad87e;
     border-radius: 50px;
     margin-left: 20px;
 }
@@ -124,12 +127,12 @@ background-color: #6cab37
     height: 110px; 
     border: 1px solid #5b5a5d;
     margin: 6px; 
-    margin-left: 14px;
+    margin-left: 26px;
     padding: 10px;
   }
   .experience >img{
     height: 50px;
-    background-color: #c1ff95;
+    background-color: #aad87e;
     border-radius: 50px;
     margin-left: 20px;
 }
@@ -177,5 +180,262 @@ background-color: #6cab37
   .bar {
       width: 0; /* Ancho inicial de la barra de progreso */
       height: 100%; /* Altura de la barra de progreso */
-      background-color: #4caf50; /* Color de la barra de progreso */
+      background-color: #4caf50; 
   }
+
+   @media screen and (min-width: 768px) and (max-width: 980px){
+    .cuadro {
+      width: 100px; 
+      height: 110px; 
+      border: 1px solid #5b5a5d;
+      margin-top: 30px; 
+      margin-left: 120px;
+      padding: 10px;
+      
+    }
+    .card {
+      display: flex;
+      border: 1px solid #5b5a5d;
+      border-radius: 8px;
+      background-color: #6cab37;
+      height: auto;
+      width: 80%;
+      margin-left: 80px;
+      margin-top: 10px;
+    }
+    header{
+      display: flex;
+      justify-content:space-between ;
+      align-items: center;
+      padding: 20px;
+      height: 100%;
+      width: 95%;
+      background-color: #6cab37
+      }
+      .cuadro {
+        width: 120px; 
+        height: 110px; 
+        border: 1px solid #5b5a5d;
+        margin-top: 30px; 
+        margin-left: 80px;
+       
+      }
+      .spacer {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 12px; 
+        width: 94%;
+        background-color: #8ac655
+        }
+        .section {
+          margin: 90px;
+          margin-top: 20px;
+      }
+   }
+   @media screen and (min-width: 981px) and (max-width: 1010px) { 
+   
+    .cuadro {
+     width: 100px; 
+     height: 110px; 
+     border: 1px solid #5b5a5d;
+     margin-top: 30px; 
+     margin-left: 120px;
+     padding: 10px;
+     
+   }
+   .card {
+     display: flex;
+     border: 1px solid #5b5a5d;
+     border-radius: 8px;
+     background-color: #6cab37;
+     height: auto;
+     width: 80%;
+     margin-left: 105px;
+     margin-top: 10px;
+   }
+   header{
+     display: flex;
+     justify-content:space-between ;
+     align-items: center;
+     padding: 20px;
+     height: 100%;
+     width: 95.8%;
+     background-color: #6cab37
+     }
+     .cuadro {
+       width: 120px; 
+       height: 110px; 
+       border: 1px solid #5b5a5d;
+       margin-top: 30px; 
+       margin-left: 130px;
+       padding: 10px;
+     }
+     .spacer {
+       margin-left: 20px;
+       margin-right: 20px;
+       height: 12px; 
+       width: 96%;
+       background-color: #8ac655
+       }
+       .section {
+         margin: 90px;
+         margin-top: 20px;
+     }
+    }
+    @media screen and (min-width: 1011px) and (max-width: 1440px) { 
+      header{
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+        padding: 20px;
+        height: 100%;
+        width: 97%;
+        background-color: #6cab37
+        }
+        .container-header >img{
+    height: 90%;
+    border-radius: 65px;
+    padding: 30px;
+    margin-left: 70px;
+}
+      .container-header >h2{
+          margin-top: 10px;
+      }
+      .container-text {
+          margin-left: 20px;
+      }
+      .cuadro {
+       width: 100px; 
+       height: 110px; 
+       border: 1px solid #5b5a5d;
+       margin-top: 30px; 
+       margin-left: 120px;
+       padding: 10px;
+       
+     }
+     .card {
+       display: flex;
+       border: 1px solid #5b5a5d;
+       border-radius: 8px;
+       background-color: #6cab37;
+       height: auto;
+       width: 80%;
+       margin-left: 105px;
+       margin-top: 10px;
+     }
+    
+       .cuadro {
+         width: 120px; 
+         height: 110px; 
+         border: 1px solid #5b5a5d;
+         margin-top: 30px; 
+         margin-left: 130px;
+         padding: 10px;
+       }
+       .spacer {
+         margin-left: 20px;
+         margin-right: 20px;
+         height: 12px; 
+         width: 96%;
+         background-color: #8ac655
+         }
+         .section {
+           margin: 90px;
+           margin-top: 20px;
+       }
+      }
+      @media screen and (min-width: 1441px) and (max-width: 1559px) { 
+        header{
+          display: flex;
+          justify-content:space-between ;
+          align-items: center;
+          padding: 20px;
+          height: 100%;
+          width: 98%;
+          background-color: #6cab37
+          }
+        .container-header >img{
+          height: 90%;
+          border-radius: 65px;
+          padding: 30px;
+          margin-left: 70px;
+         }
+        .container-text {
+            margin-right: 30%;
+            
+        }
+        .cuadro {
+         width: 100px; 
+         height: 110px; 
+         border: 1px solid #5b5a5d;
+         margin-top: 30px; 
+         margin-left: 120px;
+         padding: 10px;
+         
+       }
+       .card {
+         display: flex;
+         border: 1px solid #5b5a5d;
+         border-radius: 8px;
+         background-color: #6cab37;
+         height: auto;
+         width: 80%;
+         margin-left: 105px;
+         margin-top: 10px;
+       }
+      
+         .cuadro {
+           width: 120px; 
+           height: 110px; 
+           border: 1px solid #5b5a5d;
+           margin-top: 30px; 
+           margin-left: 130px;
+           padding: 10px;
+         }
+         .spacer {
+           margin-left: 20px;
+           margin-right: 20px;
+           height: 12px; 
+           width: 96%;
+           background-color: #8ac655
+           }
+           .section {
+             margin: 90px;
+             margin-top: 20px;
+         }
+         .container-header >h2{
+          margin-top: 10px;
+          margin-left: 80px;
+      }
+      
+      .card {
+        display: flex;
+        border: 1px solid #5b5a5d;
+        border-radius: 8px;
+        background-color: #6cab37;
+        height: auto;
+        width: 30%;
+        margin-left: 50px;
+        margin-top: 10px;
+      
+      }
+      .container-card{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-left: 290px;
+        padding-top: 40px;
+      }
+      .references{
+        display: flex;
+        align-items: center;
+        margin-top: 38px;
+    }
+    .container-paintings{
+      display: flex;
+      margin-left: 260px;
+    }
+    .section {
+      margin: 90px;
+  }
+      }
